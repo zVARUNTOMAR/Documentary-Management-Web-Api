@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DocumentaryManagementWebApi.CustomExceptions\DocumentaryManagementWebApi.CustomExceptions.csproj" />
+    <ProjectReference Include="..\DocumentaryManagementWebApi.DataLayer\DocumentaryManagementWebApi.DataLayer.csproj" />
+    <ProjectReference Include="..\DocumentaryManagementWebApi.Entity\DocumentaryManagementWebApi.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
